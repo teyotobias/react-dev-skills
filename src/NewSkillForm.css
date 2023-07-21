@@ -1,0 +1,109 @@
+/* .NewSkillForm {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: teal;
+    text-align: left;
+    border: 0.2rem solid coral;
+    border-radius: 0.3rem;
+    padding: 1rem;
+  }
+  
+  .NewSkillForm > input,
+  .NewSkillForm > select {
+    font-size: 1rem;
+    font-weight: bold;
+    color: teal;
+    padding: 0.2rem;
+    border: 0.2rem solid coral;
+    border-radius: 0.3rem;
+    outline: none;
+  }
+  
+  .NewSkillForm > button {
+    grid-column: span 2;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.2rem;
+    background-color: teal;
+    border: 0.2rem solid teal;
+    border-radius: 0.3rem;
+  } */
+  .NewSkillForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: teal;
+  text-align: left;
+  border: 0.2rem solid coral;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+.addLevel {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-row-start: 2 span 1;
+    grid-column: span 2;
+    align-items: center;
+    justify-content: center;
+}
+.levelSelect > select {
+    width: 100%;
+    margin-left: -10px;
+    border: 0.2rem solid coral;
+}
+
+.addSkill > input {
+    border: 0.2rem solid coral;
+}
+
+.skillLabel {
+    margin-right: 10px;
+}
+.addSkill {
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column: span 2
+}
+
+
+
+
+.NewSkillForm > label {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.NewSkillForm > input,
+.NewSkillForm > select {
+  font-size: 1rem;
+  font-weight: bold;
+  color: teal;
+  padding: 0.2rem;
+  border: 0.2rem solid coral;
+  border-radius: 0.3rem;
+  outline: none;
+  width: 100%; /* Make both input and select elements span the full width of their container */
+}
+
+.NewSkillForm > button {
+  grid-column: span 2;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.2rem;
+  background-color: teal;
+  border: 0.2rem solid teal;
+  border-radius: 0.3rem;
+}
